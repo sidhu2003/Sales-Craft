@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <p>Sure you want to delete {{item}} ?</p>
+
+    <form action="{% url 'delete_order' item.id %}" method="POST">
+        {% csrf_token %}
+
+        <a href="/">Cancel</a>
+        <input type="submit" value="Yes">
+
+    </form>
+    
+</body>
+</html>
