@@ -69,7 +69,7 @@ We welcome contributions from the open-source community. If you'd like to contri
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Feel free to modify and expand this README according to the specifics of your project. Don't forget to update it as your project evolves. Good luck with Sales Craft!
 
