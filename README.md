@@ -31,8 +31,8 @@ Sales Craft is a centralized CRM (Customer Relationship Management) web applicat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sales-craft.git
-   cd sales-craft
+   git clone https://github.com/sidhu2003/Sales-Craft.git
+   cd Sales-Craft
 2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
